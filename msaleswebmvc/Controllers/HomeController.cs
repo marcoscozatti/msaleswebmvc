@@ -10,7 +10,8 @@ namespace msaleswebmvc.Controllers
 {
 	public class HomeController : Controller
 	{
-		public IActionResult Index()
+		public IActionResult Index()  //IActionResult - tipo de retorno para todas ações, é uma interface de tipo genérico para todo resultado de alguma ação que se desdobra em vários tipos específicos como: ViewResult, PartialViewResult, ContentResult, entre outros.
+
 		{
 			return View();
 		}
