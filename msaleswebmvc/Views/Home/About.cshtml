@@ -1,7 +1,11 @@
-﻿@{
+﻿@{  //quando usa-se o @{ } podemos colocar o código CSharp diretamente
     ViewData["Title"] = "About";
 }
 <h2>@ViewData["Title"]</h2>
 <h3>@ViewData["Message"]</h3>
 
-<p>Use this area to provide additional information.</p>
+<p>Professor @ViewData["Professor"] </p>
+
+<address>
+    <strong> More Information: </strong> <a href="https://www.segurancaeti.com.br">Segurança e Tecnologia</a>
+</address>
